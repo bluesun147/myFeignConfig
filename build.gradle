@@ -5,8 +5,8 @@ plugins {
 	id 'maven-publish'
 }
 
-group = 'com.example'
-version = '0.0.3'
+group = 'com.haechan'
+version = '0.0.4'
 
 java {
 	sourceCompatibility = '17'
