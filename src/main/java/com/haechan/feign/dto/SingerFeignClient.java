@@ -1,12 +1,14 @@
 package com.haechan.feign.dto;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 // name : 통신할 서비스의 Eureka 등록 이름
 // path : RequestMapping의 value와 동일'
 // FeignClient끼리 name 같으면 contextId로 구분해야 함
+@Component
 @FeignClient(name = "member-service", contextId = "feignClientForSinger", path = "/member/singer")
 public interface SingerFeignClient {
 

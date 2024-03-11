@@ -1,14 +1,13 @@
 package com.haechan.feign.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
+@Component
 public class ContractFeignResponse {
     private Long contractId;
     private Double producerPercent;
