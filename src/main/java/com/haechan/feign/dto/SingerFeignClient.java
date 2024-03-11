@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.haechan.feign.dto;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

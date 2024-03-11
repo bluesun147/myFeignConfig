@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.haechan.feign.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +13,7 @@ import 하여 양쪽에서 같게 사용
 @Getter
 @Builder
 @AllArgsConstructor
-public class SingerFeignResponse {
-    private Long singerId;
+public class DistributorFeignResponse {
+    private Long distributorId;
     private String name;
 }
