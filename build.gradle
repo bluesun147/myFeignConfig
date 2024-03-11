@@ -45,6 +45,17 @@ dependencyManagement {
 	}
 }
 
+publishing {
+	publications {
+		maven(MavenPublication) {
+			groupId = 'com.haechan.feign'
+			artifactId = 'feign'
+			version = '0.0.3'
+
+			from components.java
+		}
+	}
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
