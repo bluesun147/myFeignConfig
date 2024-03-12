@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.haechan'
-version = '0.0.4'
+version = '0.0.11'
 
 java {
 	sourceCompatibility = '17'
@@ -50,7 +50,7 @@ publishing {
 		maven(MavenPublication) {
 			groupId = 'com.haechan.feign'
 			artifactId = 'feign'
-			version = '0.0.3'
+			version = '0.0.11'
 
 			from components.java
 		}
