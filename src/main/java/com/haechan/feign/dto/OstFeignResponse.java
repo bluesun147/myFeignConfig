@@ -19,5 +19,8 @@ import 하여 양쪽에서 같게 사용
 @RequiredArgsConstructor
 public class OstFeignResponse {
     private Long ostId;
+    private Long dramaId;
+    private Long producerId;
+    private Long singerId;
     private String title;
 }

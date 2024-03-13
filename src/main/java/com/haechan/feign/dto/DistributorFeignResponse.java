@@ -17,4 +17,5 @@ import 하여 양쪽에서 같게 사용
 public class DistributorFeignResponse {
     private Long distributorId;
     private String name;
+    private Double percent;
 }
